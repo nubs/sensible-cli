@@ -1,4 +1,4 @@
-sensible-cli
-============
+# sensible-cli
+A PHP symfony/console command wrapper around [nubs/sensible][sensible].
 
-A PHP symfony/console command wrapper around nubs/sensible.
+[sensible]: https://github.com/nubs/sensible
