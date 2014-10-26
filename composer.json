@@ -13,7 +13,9 @@
     "require": {
         "php": "~5.4",
         "nubs/sensible": "~0.4.0",
-        "symfony/console": "~2.5"
+        "nubs/which": "~1.0",
+        "symfony/console": "~2.5",
+        "symfony/process": "~2.5"
     },
     "require-dev": {
         "phpunit/phpunit": "~4.3",
