@@ -4,6 +4,7 @@ namespace Nubs\Sensible;
 use Symfony\Component\Console\Application as SymfonyApplication;
 use Nubs\Sensible\Command\Browser;
 use Nubs\Sensible\Command\Editor;
+use Nubs\Sensible\Command\Pager;
 
 /**
  * The symfony application wrapper for sensible.
@@ -19,7 +20,9 @@ class Application extends SymfonyApplication
 
         $browserCommand = new Browser();
         $editorCommand = new Editor();
+        $pagerCommand = new Pager();
         $this->add($browserCommand);
         $this->add($editorCommand);
+        $this->add($pagerCommand);
     }
 }
