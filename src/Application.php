@@ -18,11 +18,8 @@ class Application extends SymfonyApplication
     {
         parent::__construct('sensible', '0.1.0');
 
-        $browserCommand = new Browser();
-        $editorCommand = new Editor();
-        $pagerCommand = new Pager();
-        $this->add($browserCommand);
-        $this->add($editorCommand);
-        $this->add($pagerCommand);
+        $this->add(new Browser());
+        $this->add(new Editor());
+        $this->add(new Pager());
     }
 }
