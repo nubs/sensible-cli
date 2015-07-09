@@ -1,5 +1,6 @@
 # sensible-cli
-A PHP symfony/console command wrapper around [nubs/sensible][sensible].
+A PHP symfony/console command wrapper around [nubs/sensible][sensible] for
+finding browsers, editors, and pagers.
 
 ## Requirements
 This script requires PHP 5.4, or newer.

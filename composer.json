@@ -1,6 +1,6 @@
 {
     "name": "nubs/sensible-cli",
-    "description": "A symfony/console command wrapper around nubs/sensible.",
+    "description": "A symfony/console command wrapper around nubs/sensible for finding browsers, editors, and pagers.",
     "keywords": ["sensible", "script", "path", "executable", "editor", "browser", "pager"],
     "authors": [
         {
