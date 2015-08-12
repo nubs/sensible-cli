@@ -27,5 +27,9 @@ and `sensible pager` for stepping through a file.
 $ sensible browser http://www.example.com
 ```
 
+## License
+sensible-cli is licensed under the MIT license.  See [LICENSE](LICENSE) for
+the full license text.
+
 [sensible]: https://github.com/nubs/sensible
 [composer]: https://getcomposer.org
