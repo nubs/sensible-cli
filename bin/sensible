@@ -2,8 +2,6 @@
 <?php
 namespace Nubs\Sensible;
 
-use Nubs\Sensible\LocatorFactory\PlatformLocatorFactory;
-
 if (file_exists(__DIR__ . '/../vendor/autoload.php')) {
     require __DIR__ . '/../vendor/autoload.php';
 } elseif (file_exists(__DIR__ . '/../../../autoload.php')) {
