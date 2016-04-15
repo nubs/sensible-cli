@@ -3,7 +3,7 @@ A PHP symfony/console command wrapper around [nubs/sensible][sensible] for
 finding browsers, editors, and pagers.
 
 ## Requirements
-This script requires PHP 5.5, or newer.
+This script requires PHP 5.6, or newer.
 
 ## Installation
 This package uses [composer] so you can install it using composer.  Composer
